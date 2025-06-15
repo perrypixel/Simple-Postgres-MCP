@@ -13,8 +13,8 @@ A minimal Model Context Protocol (MCP) server for executing SQL queries on Postg
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd PerryPostgres
+   git clone https://github.com/perrypixel/Simple-Postgres-MCP
+   cd Simple-Postgres-MCP
    ```
 2. **Install dependencies**
    ```bash
