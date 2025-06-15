@@ -1,0 +1,31 @@
+{
+  "name": "simple-postgres-mcp",
+  "version": "0.1.0",
+  "description": "Simple MCP server for executing PostgreSQL queries",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [
+    "postgresql",
+    "mcp",
+    "database",
+    "sql",
+    "query"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.10.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
